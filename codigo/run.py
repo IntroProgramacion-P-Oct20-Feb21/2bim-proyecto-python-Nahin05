@@ -1,6 +1,6 @@
 # coding=utf-8
 def crearFacebook():
-    print("<< Cuenta de Facebook >>")
+    print("Cuenta de Facebook")
     nombre = input("Nombre de usuario:\n> ")
     edad = int(input("Edad del usuario:\n> "))
     ciudad = input("Ciudad donde vive el usuario:\n> ")
@@ -13,7 +13,7 @@ def crearFacebook():
 
 
 def crearTwitter():
-    print("<< Cuenta de Twitter >>")
+    print("Cuenta de Twitter")
     nombre = input("Nombre de usuario:\n> ")
     nombresCompletos = input("Nombre completo del usuario:\n> ")
     apellidos = input("Apellido completo del usuario:\n> ")
@@ -30,7 +30,7 @@ def crearTwitter():
 
 
 def crearWhatsapp():
-    print("<< Cuenta de Whatsapp >>")
+    print("Cuenta de Whatsapp")
     nombre = input("Nombre de usuario:\n> ")
     numero = int(input("Telefono del usuario:\n> "))
     edad = int(input("Edad del usuario:\n> "))
@@ -43,7 +43,7 @@ def crearWhatsapp():
 
 
 def crearTelegram():
-    print("<< Cuenta de Telegram >>")
+    print("Cuenta de Telegram")
     nombre = input("Nombre de usuario:\n> ")
     numero = int(input("Telefono del usuario:\n> "))
     ciudad = input("Ciudad donde vive el usuario:\n> ")
@@ -56,7 +56,7 @@ def crearTelegram():
 
 
 def crearSignal():
-    print("<< Cuenta de Signal >>")
+    print("Cuenta de Signal")
     nombre = input("Nombre de usuario:\n> ")
     numero = int(input("Telefono del usuario:\n> "))
     ciudad = input("Ciudad donde vive el usuario:\n> ")
@@ -69,7 +69,7 @@ def crearSignal():
 
 
 def crearInstagram():
-    print("<< Cuenta de Instagram >>")
+    print("Cuenta de Instagram")
     nombre = input("Nombre de usuario:\n> ")
     ciudad = input("Ciudad donde vive el usuario:\n> ")
     edad = int(input("Edad del usuario:\n> "))
@@ -80,7 +80,7 @@ def crearInstagram():
 
 
 def crearFlickr():
-    print("<< Cuenta de Flickr >>")
+    print("Cuenta de Flickr")
     nombre = input("Nombre de usuario:\n> ")
     correo = input("Correo del usuario:\n> ")
     resumen = (f"----Cuenta de Flickr creada----\n"
