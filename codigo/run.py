@@ -4,64 +4,69 @@ def crearFacebook():
     nombre = input("Nombre de usuario:\n> ")
     edad = int(input("Edad del usuario:\n> "))
     ciudad = input("Ciudad donde vive el usuario:\n> ")
-    pais = input("Pais donde habita el usuario:\n> ")
+    pais = input("Pais de donde vive el usuario:\n> ")
     correo = input("Correo del usuario:\n> ")
-    resumen = ("----Cuenta de Facebook creada----\n"
-                "Nombre de usuario: {nombre}\nEdad del usuario: {edad}\nCiudad donde vive el usuario: {ciudad}\n"
-                "Pais donde habita el usuario: {pais}\nCorreo del usuario: {correo}\n")
+    resumen = (f"----Cuenta de Facebook creada----\n"
+               f"Nombre de usuario: {nombre}\nEdad del usuario: {edad}\nCiudad donde vive el usuario: {ciudad}\n"
+               f"Pais donde vive el usuario: {pais}\nCorreo del usuario: {correo}\n")
     return resumen
+
 
 def crearTwitter():
     print("<< Cuenta de Twitter >>")
     nombre = input("Nombre de usuario:\n> ")
-    nombreCompleto = input("Nombre completo del usuario:\n> ")
+    nombresCompletos = input("Nombre completo del usuario:\n> ")
     apellidos = input("Apellido completo del usuario:\n> ")
     edad = int(input("Edad del usuario:\n> "))
     ciudad = input("Ciudad donde vive el usuario:\n> ")
-    pais = input("Pais donde habita el usuario:\n> ")
+    pais = input("Pais del usuario:\n> ")
     idioma = input("Idioma del usuario:\n> ")
     correo = input("Correo electronico del usuario:\n> ")
-    print("----Cuenta de Twitter creada----\n"
-            "Nombre de usuario: {nombre}\nNombre completo del usuario: {nombresCompletos}\nApellido "
-            "completo del usuario: {apellidos}\nEdad del usuario: {edad}\n"
-            "Ciudad donde vive el usuario: {ciudad}\nPais donde habita usuario: {pais}\nIdioma del usuario: {idioma}\n"
-            "Correo electronico del usuario: {correo}\n")
+    print(f"----Cuenta de Twitter creada----\n"
+          f"Nombre de usuario: {nombre}\nNombre completo del usuario: {nombresCompletos}\nApellido "
+          f"completo del usuario: {apellidos}\nEdad del usuario: {edad}\n"
+          f"Ciudad donde vive el usuario: {ciudad}\nPais del usuario: {pais}\nIdioma del usuario: {idioma}\n"
+          f"Correo del usuario: {correo}\n")
+
 
 def crearWhatsapp():
     print("<< Cuenta de Whatsapp >>")
     nombre = input("Nombre de usuario:\n> ")
-    numero = int(input("Numero de telefono del usuario:\n> "))
+    numero = int(input("Telefono del usuario:\n> "))
     edad = int(input("Edad del usuario:\n> "))
-    ciudad = input("Ciudad donde vive usuario:\n> ")
-    pais = input("Pais donde habita usuario:\n> ")
-    resumen = ("----Cuenta de Whatsapp creada----\n"
-                "Nombre del usuario: {nombre}\nNumero de telefono del usuario: {numero}\n"
-                "Edad del usuario: {edad}\nCiudad donde vive usuario: {ciudad}\nPais donde habita el usuario: {pais}\n")
+    ciudad = input("Ciudad donde vive el usuario:\n> ")
+    pais = input("Pais del usuario:\n> ")
+    resumen = (f"----Cuenta de Whatsapp creada----\n"
+               f"Nombre de usuario: {nombre}\nTelefono del usuario: {numero}\n"
+               f"Edad del usuario: {edad}\nCiudad donde vive el usuario: {ciudad}\nPais del usuario: {pais}\n")
     return resumen
+
 
 def crearTelegram():
     print("<< Cuenta de Telegram >>")
     nombre = input("Nombre de usuario:\n> ")
-    numero = int(input("Numero de telefono del usuario:\n> "))
-    ciudad = input("Ciudad donde vive usuario:\n> ")
-    pais = input("Pais donde vive usuario:\n> ")
+    numero = int(input("Telefono del usuario:\n> "))
+    ciudad = input("Ciudad donde vive el usuario:\n> ")
+    pais = input("Pais del usuario:\n> ")
     areaInteres = input("Area de interés del usuario:\n> ")
-    print("----Cuenta de Telegram creada----\n"
-            "Nombre de usuario: {nombre}\nNumero de telefono del usuario: {numero}\n"
-            "Ciudad donde vive usuario: {ciudad}\nPais donde vive usuario: {pais}\n"
-            "Area de interés del usuario: {areaInteres}\n")
+    print(f"----Cuenta de Telegram creada----\n"
+          f"Nombre de usuario: {nombre}\nTelefono del usuario: {numero}\n"
+          f"Ciudad donde vive el usuario: {ciudad}\nPais del usuario: {pais}\n"
+          f"Area de interés del usuario: {areaInteres}\n")
+
 
 def crearSignal():
     print("<< Cuenta de Signal >>")
     nombre = input("Nombre de usuario:\n> ")
-    numero = int(input("Numero de telefono del usuario:\n> "))
+    numero = int(input("Telefono del usuario:\n> "))
     ciudad = input("Ciudad donde vive el usuario:\n> ")
-    pais = input("Pais donde vive el usuario:\n> ")
-    hobby = input("Hobby del usuario:\n> ")
-    resumen = ("----Cuenta de Signal creada----\n"
-                "Nombre de usuario: {nombre}\nNumero de telefono del usuario: {numero}\n"
-                "Ciudad donde vive usuario: {ciudad}\nPais donde vive el usuario: {pais}\nHobby del usuario: {hobby}\n")
+    pais = input("Pais del usuario:\n> ")
+    hobby = input("Hobby principal del usuario:\n> ")
+    resumen = (f"----Cuenta de Signal creada----\n"
+               f"Nombre de usuario: {nombre}\nTelefono del usuario: {numero}\n"
+               f"Ciudad donde vive el usuario: {ciudad}\nPais del usuario: {pais}\nHobby principal del usuario: {hobby}\n")
     return resumen
+
 
 def crearInstagram():
     print("<< Cuenta de Instagram >>")
@@ -69,17 +74,19 @@ def crearInstagram():
     ciudad = input("Ciudad donde vive el usuario:\n> ")
     edad = int(input("Edad del usuario:\n> "))
     correo = input("Correo del usuario:\n> ")
-    print("----Cuenta de Instagram creada----\n"
-            "Nombre de usuario: {nombre}\nCiudad donde vive el usuario: {ciudad}\nEdad del usuario: {edad}\n"
-            "Correo del usuario: {correo}\n")
+    print(f"----Cuenta de Instagram creada----\n"
+          f"Nombre de usuario: {nombre}\nCiudad donde vive el usuario: {ciudad}\nEdad del usuario: {edad}\n"
+          f"Correo del usuario: {correo}\n")
+
 
 def crearFlickr():
     print("<< Cuenta de Flickr >>")
     nombre = input("Nombre de usuario:\n> ")
     correo = input("Correo del usuario:\n> ")
-    resumen = ("----Cuenta de Flickr creada----\n"
-                "Nombre de usuario {nombre}\nCorreo del usuario: {correo}\n")
+    resumen = (f"----Cuenta de Flickr creada----\n"
+               f"Nombre de usuario {nombre}\nCorreo del usuario: {correo}\n")
     return resumen
+
 
 def obtenerMensaje(cuentasCreadas):
     mensaje = ""
@@ -92,17 +99,18 @@ def obtenerMensaje(cuentasCreadas):
         mensaje = mensajeFinal[2]
     return mensaje
 
+
 if __name__ == "__main__":
     bandera = True
     contador = 0
     while bandera:
         opcion = int(input("Ingrese 1 si desea crear una cuenta de Facebook\n"
-                            + "Ingrese 2 si desea crear una cuenta de Twitter\n"
-                            + "Ingrese 3 si desea crear una cuenta de Whatsapp\n"
-                            + "Ingrese 6 si desea crear una cuenta de Telegram\n"
-                            + "Ingrese 5 si desea crear una cuenta de Signal\n"
-                            + "Ingrese 6 si desea crear una cuenta de Instagram\n"
-                            + "Ingrese 7 si desea crear una cuenta de Flickr\n> "))
+                           + "Ingrese 2 si desea crear una cuenta de Twitter\n"
+                           + "Ingrese 3 si desea crear una cuenta de Whatsapp\n"
+                           + "Ingrese 6 si desea crear una cuenta de Telegram\n"
+                           + "Ingrese 5 si desea crear una cuenta de Signal\n"
+                           + "Ingrese 6 si desea crear una cuenta de Instagram\n"
+                           + "Ingrese 7 si desea crear una cuenta de Flickr\n> "))
         if opcion == 1:
             print(crearFacebook())
         elif opcion == 2:
@@ -112,15 +120,15 @@ if __name__ == "__main__":
         elif opcion == 4:
             crearTelegram()
         elif opcion == 5:
-            print(crearSignal()
+            print(crearSignal())
         elif opcion == 6:
             crearInstagram()
         elif opcion == 7:
             print(crearFlickr())
         else:
             print("No es una opcion a seleccionar")
-            contador = contador + 1
-            salida = int(input("Ingrese el numero 1 si desea salir del ciclo\n> "))
-            if salida == 1:
-                bandera = False
-            print("La campaña es una: " + obtenerMensaje(contador))
+        contador = contador + 1
+        salida = int(input("Ingrese el numero 1 si desea salir del ciclo\n> "))
+        if salida == 1:
+            bandera = False
+    print(obtenerMensaje(contador))
